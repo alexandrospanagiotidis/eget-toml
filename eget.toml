@@ -1,0 +1,45 @@
+[global]
+target = "~/.local/bin"
+upgrade_only = true
+#quiet = true
+show_hash = true
+
+["starship/starship"]
+asset_filters = [ ".tar.gz" ]
+
+["jqlang/jq"]
+
+["BurntSushi/ripgrep"]
+
+["sharkdp/bat"]
+
+["sharkdp/fd"]
+
+["dandavison/delta"]
+
+["sxyazi/yazi"]
+
+["josephburnett/jd"]
+
+["akavel/up"]
+
+["noborus/ov"]
+
+["fioncat/otree"]
+
+["PaulJuliusMartinez/jless"]
+
+["antonmedv/fx"]
+
+["helix-editor/helix"]
+
+["zyedidia/micro"]
+
+["mikefarah/yq"]
+# https://github.com/zyedidia/eget/issues/109
+file = "yq_*"
+asset_filters = [ ".tar.gz" ]
+# https://github.com/zyedidia/eget/issues/81
+target = "~/.local/bin/yq"
+
+["wagoodman/dive"]
