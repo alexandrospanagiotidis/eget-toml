@@ -43,3 +43,6 @@ asset_filters = [ ".tar.gz" ]
 target = "~/.local/bin/yq"
 
 ["wagoodman/dive"]
+
+["dhth/kplay"]
+asset_filters = [ ".tar.gz" ]
