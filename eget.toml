@@ -46,3 +46,5 @@ target = "~/.local/bin/yq"
 
 ["dhth/kplay"]
 asset_filters = [ ".tar.gz" ]
+
+["triyanox/lla"]
