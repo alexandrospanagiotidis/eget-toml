@@ -48,3 +48,5 @@ target = "~/.local/bin/yq"
 asset_filters = [ ".tar.gz" ]
 
 ["triyanox/lla"]
+
+["merschformann/gotz"]
