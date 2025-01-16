@@ -50,3 +50,6 @@ asset_filters = [ ".tar.gz" ]
 ["triyanox/lla"]
 
 ["merschformann/gotz"]
+
+["vi/websocat"]
+tag="v4.0.0-alpha1"
