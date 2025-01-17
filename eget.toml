@@ -52,4 +52,6 @@ asset_filters = [ ".tar.gz" ]
 ["merschformann/gotz"]
 
 ["vi/websocat"]
-tag="v4.0.0-alpha1"
+#tag="v4.0.0-alpha1"
+
+["veeso/termscp"]
