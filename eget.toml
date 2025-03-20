@@ -4,6 +4,8 @@ upgrade_only = true
 #quiet = true
 show_hash = true
 
+["direnv/direnv"]
+
 ["starship/starship"]
 asset_filters = [ ".tar.gz" ]
 
@@ -55,3 +57,7 @@ asset_filters = [ ".tar.gz" ]
 #tag="v4.0.0-alpha1"
 
 ["veeso/termscp"]
+
+["aurc/loggo"]
+
+["knqyf263/sou"]
