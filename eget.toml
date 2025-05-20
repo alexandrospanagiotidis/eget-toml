@@ -61,3 +61,5 @@ asset_filters = [ ".tar.gz" ]
 ["aurc/loggo"]
 
 ["knqyf263/sou"]
+
+["buildpacks/pack"]
