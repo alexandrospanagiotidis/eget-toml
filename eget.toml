@@ -65,3 +65,6 @@ asset_filters = [ ".tar.gz" ]
 ["buildpacks/pack"]
 
 ["robjtede/inspect-cert-chain"]
+
+["logdyhq/logdy-core"]
+target = "~/.local/bin/logdy"
