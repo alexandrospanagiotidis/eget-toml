@@ -63,3 +63,5 @@ asset_filters = [ ".tar.gz" ]
 ["knqyf263/sou"]
 
 ["buildpacks/pack"]
+
+["robjtede/inspect-cert-chain"]
