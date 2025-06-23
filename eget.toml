@@ -68,3 +68,5 @@ asset_filters = [ ".tar.gz" ]
 
 ["logdyhq/logdy-core"]
 target = "~/.local/bin/logdy"
+
+["shshemi/tabiew"]
