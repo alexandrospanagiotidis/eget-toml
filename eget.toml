@@ -4,6 +4,8 @@ upgrade_only = true
 #quiet = true
 show_hash = true
 
+["zyedidia/eget"]
+
 ["direnv/direnv"]
 
 ["starship/starship"]
@@ -12,6 +14,7 @@ asset_filters = [ ".tar.gz" ]
 ["jqlang/jq"]
 
 ["BurntSushi/ripgrep"]
+target = "~/.local/bin/rg"
 
 ["sharkdp/bat"]
 
@@ -34,6 +37,7 @@ asset_filters = [ ".tar.gz" ]
 ["antonmedv/fx"]
 
 ["helix-editor/helix"]
+target = "~/.local/bin/hx"
 
 ["zyedidia/micro"]
 
@@ -57,6 +61,7 @@ asset_filters = [ ".tar.gz" ]
 #tag="v4.0.0-alpha1"
 
 ["veeso/termscp"]
+asset_filters = [ "arm64" ]
 
 ["aurc/loggo"]
 
@@ -70,3 +75,6 @@ asset_filters = [ ".tar.gz" ]
 target = "~/.local/bin/logdy"
 
 ["shshemi/tabiew"]
+
+["zellij-org/zellij"]
+asset_filters = [ "^no-web" ]
