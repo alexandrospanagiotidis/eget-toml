@@ -1,7 +1,7 @@
 [global]
 target = "~/.local/bin"
 upgrade_only = true
-#quiet = true
+quiet = false
 show_hash = true
 
 ["zyedidia/eget"]
@@ -78,3 +78,16 @@ target = "~/.local/bin/logdy"
 
 ["zellij-org/zellij"]
 asset_filters = [ "^no-web" ]
+
+#["okbob/pspg"] # no github release
+
+["xo/usql"]
+
+["duckdb/duckdb"]
+target = "~/.local/bin/duckdb"
+
+["openai/codex"]
+target = "~/.local/bin/codex"
+asset_filters = [ ".tar.gz" ]
+
+["cli/cli"]
