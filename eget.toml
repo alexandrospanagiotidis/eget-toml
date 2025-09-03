@@ -84,10 +84,13 @@ asset_filters = [ "^no-web" ]
 ["xo/usql"]
 
 ["duckdb/duckdb"]
-target = "~/.local/bin/duckdb"
+asset_filters = [ "duckdb_cli", ".gz" ]
 
 ["openai/codex"]
 target = "~/.local/bin/codex"
 asset_filters = [ ".tar.gz" ]
 
 ["cli/cli"]
+target = "~/.local/bin/gh"
+
+["tokuhirom/dcv"]
