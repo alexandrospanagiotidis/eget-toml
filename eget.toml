@@ -94,3 +94,5 @@ asset_filters = [ ".tar.gz" ]
 target = "~/.local/bin/gh"
 
 ["tokuhirom/dcv"]
+
+["plutov/oq"]
