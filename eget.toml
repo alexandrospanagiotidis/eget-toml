@@ -96,3 +96,5 @@ target = "~/.local/bin/gh"
 ["tokuhirom/dcv"]
 
 ["plutov/oq"]
+
+["jonas-grgt/ktea"]
