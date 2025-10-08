@@ -98,3 +98,5 @@ target = "~/.local/bin/gh"
 ["plutov/oq"]
 
 ["jonas-grgt/ktea"]
+
+["lasantosr/intelli-shell"]
