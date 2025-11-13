@@ -4,99 +4,110 @@ upgrade_only = true
 quiet = false
 show_hash = true
 
-["zyedidia/eget"]
+["zyedidia/eget"] # Easily install prebuilt binaries from GitHub.
 
-["direnv/direnv"]
+["direnv/direnv"] # unclutter your .profile
 
-["starship/starship"]
+["starship/starship"] # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 asset_filters = [ ".tar.gz" ]
 
-["jqlang/jq"]
+["jqlang/jq"] # Command-line JSON processor
 
-["BurntSushi/ripgrep"]
+["BurntSushi/ripgrep"] # ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 target = "~/.local/bin/rg"
 
-["sharkdp/bat"]
+["sharkdp/bat"] # A cat(1) clone with wings.
 
-["sharkdp/fd"]
+["sharkdp/fd"] # A simple, fast and user-friendly alternative to 'find'
 
-["dandavison/delta"]
+["dandavison/delta"] #  A syntax-highlighting pager for git, diff, grep, and blame output
 
-["sxyazi/yazi"]
+["sxyazi/yazi"] # Blazing fast terminal file manager written in Rust, based on async I/O.
 
-["josephburnett/jd"]
+["josephburnett/jd"] # JSON diff and patch
 
-["akavel/up"]
+["akavel/up"] # Ultimate Plumber is a tool for writing Linux pipes with instant live preview
 
-["noborus/ov"]
+["noborus/ov"] # Feature-rich terminal-based text viewer.
 
-["fioncat/otree"]
+["fioncat/otree"] #  A command line tool to view objects (JSON/YAML/TOML/XML) in TUI tree widget.
 
-["PaulJuliusMartinez/jless"]
+["PaulJuliusMartinez/jless"] # jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data.
 
-["antonmedv/fx"]
+["antonmedv/fx"] # Terminal JSON viewer & processor
 
-["helix-editor/helix"]
+["helix-editor/helix"] # A post-modern modal text editor.
 target = "~/.local/bin/hx"
 
-["zyedidia/micro"]
+["zyedidia/micro"] # A modern and intuitive terminal-based text editor
 
-["mikefarah/yq"]
+["mikefarah/yq"] # yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor
 # https://github.com/zyedidia/eget/issues/109
 file = "yq_*"
 asset_filters = [ ".tar.gz" ]
 # https://github.com/zyedidia/eget/issues/81
 target = "~/.local/bin/yq"
 
-["wagoodman/dive"]
+["wagoodman/dive"] # A tool for exploring each layer in a docker image
 
-["dhth/kplay"]
+["dhth/kplay"] # Inspect messages in a Kafka topic in a simple and deliberate manner
 asset_filters = [ ".tar.gz" ]
 
-["triyanox/lla"]
+["triyanox/lla"] # blazing fast `ls` replacement with superpowers
 
-["merschformann/gotz"]
+["merschformann/gotz"] # CLI timezone info
 
-["vi/websocat"]
+["vi/websocat"] # Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions
 #tag="v4.0.0-alpha1"
 
-["veeso/termscp"]
+["veeso/termscp"] # A feature rich terminal UI file transfer and explorer with support for SCP/SFTP/FTP/S3/SMB
 asset_filters = [ "arm64" ]
 
-["aurc/loggo"]
+["aurc/loggo"] # A powerful terminal app for structured log streaming
 
-["knqyf263/sou"]
+["knqyf263/sou"] # A tool for exploring files in container image layers
 
-["buildpacks/pack"]
+["buildpacks/pack"] # CLI for building apps using Cloud Native Buildpacks
 
-["robjtede/inspect-cert-chain"]
+["robjtede/inspect-cert-chain"] # Inspect and debug TLS certificate chains (without OpenSSL)
 
-["logdyhq/logdy-core"]
+["logdyhq/logdy-core"] # Realtime log viewer with web UI, tail -f for logs with a web interface browser.
 target = "~/.local/bin/logdy"
 
-["shshemi/tabiew"]
+["shshemi/tabiew"] # A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet.
 
-["zellij-org/zellij"]
+["zellij-org/zellij"] # A terminal workspace with batteries included
 asset_filters = [ "^no-web" ]
 
-#["okbob/pspg"] # no github release
+#["okbob/pspg"] # Unix pager (with very rich functionality) designed for work with tables.
+# only source available on github
 
-["xo/usql"]
+["xo/usql"] # Universal command-line interface for SQL databases
 
-["duckdb/duckdb"]
+["duckdb/duckdb"] # DuckDB is an analytical in-process SQL database management system
 asset_filters = [ "duckdb_cli", ".gz" ]
 
-["openai/codex"]
+["openai/codex"] # Lightweight coding agent that runs in your terminal
 target = "~/.local/bin/codex"
 asset_filters = [ ".tar.gz" ]
 
-["cli/cli"]
+["cli/cli"] # GitHub’s official command line tool
 target = "~/.local/bin/gh"
 
-["tokuhirom/dcv"]
+["tokuhirom/dcv"] # TUI viewer for docker-compose
 
-["plutov/oq"]
+["plutov/oq"] # Terminal OpenAPI Spec viewer
 
-["jonas-grgt/ktea"]
+["jonas-grgt/ktea"] # Kafka TUI client
 
-["lasantosr/intelli-shell"]
+["lasantosr/intelli-shell"] # Like IntelliSense, but for shells
+
+["ynqa/jnv"] # Interactive JSON filter using jq
+
+["01mf02/jaq"] # A jq clone focussed on correctness, speed, and simplicity
+
+["sibprogrammer/xq"] # Command-line XML and HTML beautifier and content extractor
+
+["astral-sh/uv"] # An extremely fast Python package and project manager, written in Rust.
+
+["Orange-OpenSource/hurl"] # Hurl, run and test HTTP requests with plain text.
