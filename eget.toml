@@ -111,3 +111,7 @@ target = "~/.local/bin/gh"
 ["astral-sh/uv"] # An extremely fast Python package and project manager, written in Rust.
 
 ["Orange-OpenSource/hurl"] # Hurl, run and test HTTP requests with plain text.
+
+["google/go-jsonnet"] # Jsonnet - The data templating language
+file = "jsonnet*"
+all = true
