@@ -53,7 +53,7 @@ target = "~/.local/bin/yq"
 ["dhth/kplay"] # Inspect messages in a Kafka topic in a simple and deliberate manner
 asset_filters = [ ".tar.gz" ]
 
-["triyanox/lla"] # blazing fast `ls` replacement with superpowers
+#["triyanox/lla"] # blazing fast `ls` replacement with superpowers
 
 ["merschformann/gotz"] # CLI timezone info
 
@@ -89,7 +89,7 @@ asset_filters = [ "duckdb_cli", ".gz" ]
 
 ["openai/codex"] # Lightweight coding agent that runs in your terminal
 target = "~/.local/bin/codex"
-asset_filters = [ ".tar.gz" ]
+asset_filters = [ ".tar.gz", "^responses-api-proxy" ]
 
 ["cli/cli"] # GitHub’s official command line tool
 target = "~/.local/bin/gh"
