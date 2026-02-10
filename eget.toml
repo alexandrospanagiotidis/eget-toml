@@ -36,10 +36,11 @@ target = "~/.local/bin/rg"
 
 ["antonmedv/fx"] # Terminal JSON viewer & processor
 
-["helix-editor/helix"] # A post-modern modal text editor.
-target = "~/.local/bin/hx"
+#["helix-editor/helix"] # A post-modern modal text editor.
+#target = "~/.local/bin/hx"
 
-["zyedidia/micro"] # A modern and intuitive terminal-based text editor
+#["zyedidia/micro"] # A modern and intuitive terminal-based text editor
+#asset_filters = [ "^.sha" ]
 
 ["mikefarah/yq"] # yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor
 # https://github.com/zyedidia/eget/issues/109
@@ -115,3 +116,5 @@ target = "~/.local/bin/gh"
 ["google/go-jsonnet"] # Jsonnet - The data templating language
 file = "jsonnet*"
 all = true
+
+["karol-broda/snitch"] # a prettier way to inspect network connections 
