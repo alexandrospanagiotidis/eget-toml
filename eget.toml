@@ -62,7 +62,6 @@ asset_filters = [ ".tar.gz" ]
 #tag="v4.0.0-alpha1"
 
 ["veeso/termscp"] # A feature rich terminal UI file transfer and explorer with support for SCP/SFTP/FTP/S3/SMB
-asset_filters = [ "arm64" ]
 
 ["aurc/loggo"] # A powerful terminal app for structured log streaming
 
@@ -118,3 +117,5 @@ file = "jsonnet*"
 all = true
 
 ["karol-broda/snitch"] # a prettier way to inspect network connections 
+
+["yannh/kubeconform"] # A FAST Kubernetes manifests validator, with support for Custom Resources!
