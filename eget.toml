@@ -125,3 +125,11 @@ asset_filters = [ "^.sbom.json" ]
 
 ["charmbracelet/skate"] #  A personal key value store
 asset_filters = [ "^.sbom.json" ]
+
+["matthart1983/netwatch"] # Real-time network diagnostics in your terminal
+
+["mrkatebzadeh/darya"] # Disk usage explorer with a TUI and live treemap
+
+["ymtdzzz/otel-tui"] #  A terminal OpenTelemetry viewer inspired by otel-desktop-viewer
+
+["micahkepe/jsongrep"] # A path query language for JSON, YAML, TOML, and other serialization formats
