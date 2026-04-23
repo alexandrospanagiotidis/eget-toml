@@ -133,3 +133,6 @@ asset_filters = [ "^.sbom.json" ]
 ["ymtdzzz/otel-tui"] #  A terminal OpenTelemetry viewer inspired by otel-desktop-viewer
 
 ["micahkepe/jsongrep"] # A path query language for JSON, YAML, TOML, and other serialization formats
+
+["koalaman/shellcheck"] # ShellCheck, a static analysis tool for shell scripts
+asset_filters = [ ".tar.gz" ]
