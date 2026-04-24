@@ -147,3 +147,8 @@ asset_filters = [ ".tar.gz" ]
 file = "nb"
 
 ["RivoLink/leaf"] # Terminal Markdown previewer — GUI-like experience
+
+["jgm/pandoc"] # Universal markup converter
+asset_filters = [ ".zip" ]
+
+["ouch-org/ouch"] # Painless compression and decompression in the terminal
