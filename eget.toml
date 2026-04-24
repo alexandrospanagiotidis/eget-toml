@@ -14,6 +14,8 @@ asset_filters = [ ".tar.gz" ]
 ["starship/starship"] # The minimal, blazing-fast, and infinitely customizable prompt for any shell
 asset_filters = [ ".tar.gz" ]
 
+["junegunn/fzf"] # A command-line fuzzy finder
+
 ["jqlang/jq"] # Command-line JSON processor
 
 ["BurntSushi/ripgrep"] # ripgrep recursively searches directories for a regex pattern while respecting your gitignore
