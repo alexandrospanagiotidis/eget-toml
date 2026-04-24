@@ -145,3 +145,5 @@ asset_filters = [ ".tar.gz" ]
 
 ["justrach/nanobrew"] # The fastest macOS package manager
 file = "nb"
+
+["RivoLink/leaf"] # Terminal Markdown previewer — GUI-like experience
