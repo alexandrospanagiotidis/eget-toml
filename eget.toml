@@ -4,11 +4,14 @@ upgrade_only = true
 quiet = false
 show_hash = true
 
-["zyedidia/eget"] # Easily install prebuilt binaries from GitHub.
+["zyedidia/eget"] # Easily install prebuilt binaries from GitHub
+
+["jdx/mise"] #  dev tools, env vars, task runner 
+asset_filters = [ ".tar.gz" ]
 
 ["direnv/direnv"] # unclutter your .profile
 
-["starship/starship"] # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+["starship/starship"] # The minimal, blazing-fast, and infinitely customizable prompt for any shell
 asset_filters = [ ".tar.gz" ]
 
 ["jqlang/jq"] # Command-line JSON processor
@@ -22,21 +25,21 @@ target = "~/.local/bin/rg"
 
 ["dandavison/delta"] #  A syntax-highlighting pager for git, diff, grep, and blame output
 
-["sxyazi/yazi"] # Blazing fast terminal file manager written in Rust, based on async I/O.
+["sxyazi/yazi"] # Blazing fast terminal file manager written in Rust, based on async I/O
 
 ["josephburnett/jd"] # JSON diff and patch
 
 ["akavel/up"] # Ultimate Plumber is a tool for writing Linux pipes with instant live preview
 
-["noborus/ov"] # Feature-rich terminal-based text viewer.
+["noborus/ov"] # Feature-rich terminal-based text viewer
 
-["fioncat/otree"] #  A command line tool to view objects (JSON/YAML/TOML/XML) in TUI tree widget.
+["fioncat/otree"] #  A command line tool to view objects (JSON/YAML/TOML/XML) in TUI tree widget
 
-["PaulJuliusMartinez/jless"] # jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data.
+["PaulJuliusMartinez/jless"] # jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data
 
 ["antonmedv/fx"] # Terminal JSON viewer & processor
 
-#["helix-editor/helix"] # A post-modern modal text editor.
+#["helix-editor/helix"] # A post-modern modal text editor
 #target = "~/.local/bin/hx"
 
 #["zyedidia/micro"] # A modern and intuitive terminal-based text editor
@@ -71,15 +74,15 @@ asset_filters = [ ".tar.gz" ]
 
 ["robjtede/inspect-cert-chain"] # Inspect and debug TLS certificate chains (without OpenSSL)
 
-["logdyhq/logdy-core"] # Realtime log viewer with web UI, tail -f for logs with a web interface browser.
+["logdyhq/logdy-core"] # Realtime log viewer with web UI, tail -f for logs with a web interface browser
 target = "~/.local/bin/logdy"
 
-["shshemi/tabiew"] # A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet.
+["shshemi/tabiew"] # A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet
 
 ["zellij-org/zellij"] # A terminal workspace with batteries included
 asset_filters = [ "^no-web" ]
 
-#["okbob/pspg"] # Unix pager (with very rich functionality) designed for work with tables.
+#["okbob/pspg"] # Unix pager (with very rich functionality) designed for work with tables
 # only source available on github
 
 ["xo/usql"] # Universal command-line interface for SQL databases
@@ -108,7 +111,7 @@ target = "~/.local/bin/gh"
 
 ["sibprogrammer/xq"] # Command-line XML and HTML beautifier and content extractor
 
-["astral-sh/uv"] # An extremely fast Python package and project manager, written in Rust.
+["astral-sh/uv"] # An extremely fast Python package and project manager, written in Rust
 
 ["Orange-OpenSource/hurl"] # Hurl, run and test HTTP requests with plain text.
 
@@ -118,9 +121,9 @@ all = true
 
 ["karol-broda/snitch"] # a prettier way to inspect network connections 
 
-["yannh/kubeconform"] # A FAST Kubernetes manifests validator, with support for Custom Resources!
+["yannh/kubeconform"] # A FAST Kubernetes manifests validator, with support for Custom Resources
 
-["charmbracelet/glow"] # Render markdown on the CLI, with pizzazz!
+["charmbracelet/glow"] # Render markdown on the CLI, with pizzazz
 asset_filters = [ "^.sbom.json" ]
 
 ["charmbracelet/skate"] #  A personal key value store
@@ -133,6 +136,10 @@ asset_filters = [ "^.sbom.json" ]
 ["ymtdzzz/otel-tui"] #  A terminal OpenTelemetry viewer inspired by otel-desktop-viewer
 
 ["micahkepe/jsongrep"] # A path query language for JSON, YAML, TOML, and other serialization formats
+target = "~/.local/bin/jg"
 
 ["koalaman/shellcheck"] # ShellCheck, a static analysis tool for shell scripts
 asset_filters = [ ".tar.gz" ]
+
+["justrach/nanobrew"] # The fastest macOS package manager
+file = "nb"
