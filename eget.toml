@@ -59,7 +59,8 @@ target = "~/.local/bin/yq"
 ["dhth/kplay"] # Inspect messages in a Kafka topic in a simple and deliberate manner
 asset_filters = [ ".tar.gz" ]
 
-#["triyanox/lla"] # blazing fast `ls` replacement with superpowers
+["triyanox/lla"] # blazing fast `ls` replacement with superpowers
+asset_filters = [ "^plugins-" ]
 
 ["merschformann/gotz"] # CLI timezone info
 
@@ -92,9 +93,9 @@ asset_filters = [ "^no-web" ]
 ["duckdb/duckdb"] # DuckDB is an analytical in-process SQL database management system
 asset_filters = [ "duckdb_cli", ".gz" ]
 
-["openai/codex"] # Lightweight coding agent that runs in your terminal
-target = "~/.local/bin/codex"
-asset_filters = [ ".tar.gz", "^responses-api-proxy" ]
+#["openai/codex"] # Lightweight coding agent that runs in your terminal
+#target = "~/.local/bin/codex"
+#asset_filters = [ ".tar.gz", "^responses-api-proxy" ]
 
 ["cli/cli"] # GitHub’s official command line tool
 target = "~/.local/bin/gh"
@@ -118,6 +119,7 @@ target = "~/.local/bin/gh"
 ["Orange-OpenSource/hurl"] # Hurl, run and test HTTP requests with plain text.
 
 ["google/go-jsonnet"] # Jsonnet - The data templating language
+target = "~/.local/bin/jsonnet"
 file = "jsonnet*"
 all = true
 
@@ -132,6 +134,7 @@ asset_filters = [ "^.sbom.json" ]
 asset_filters = [ "^.sbom.json" ]
 
 ["matthart1983/netwatch"] # Real-time network diagnostics in your terminal
+target = "~/.local/bin/netwatch"
 
 ["mrkatebzadeh/darya"] # Disk usage explorer with a TUI and live treemap
 
@@ -144,6 +147,7 @@ target = "~/.local/bin/jg"
 asset_filters = [ ".tar.gz" ]
 
 ["justrach/nanobrew"] # The fastest macOS package manager
+target = "~/.local/bin/nb"
 file = "nb"
 
 ["RivoLink/leaf"] # Terminal Markdown previewer — GUI-like experience
@@ -152,3 +156,21 @@ file = "nb"
 asset_filters = [ ".zip" ]
 
 ["ouch-org/ouch"] # Painless compression and decompression in the terminal
+
+["google/go-containerregistry"] # Go library and CLIs for working with container registries
+target = "~/.local/bin/crane"
+file = "{crane,krane,gcrane}"
+all = true
+
+["lucasgelfond/zerobrew"] # A 5-20x faster experimental Homebrew alternative
+asset_filters = [ "^zbx" ]
+target = "~/.local/bin/zb"
+
+["Wilfred/difftastic"] # a structural diff that understands syntax
+target = "~/.local/bin/difft"
+
+["itchyny/gojo"] # Yet another Go implementation of jo
+
+["sayanarijit/jf"] # jf %q "JSON Formatted"
+
+["rclone/rclone"] # "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
